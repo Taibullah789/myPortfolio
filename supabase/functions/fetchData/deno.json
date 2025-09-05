@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "supabase": "https://cdn.jsdelivr.net/npm/@supabase/functions-js@0.1.0/dist/index.js",
+    "jsr:@supabase/functions-js/edge-runtime.d.ts": "https://cdn.jsdelivr.net/npm/@supabase/functions-js@0.1.0/dist/edge-runtime.d.ts"
+  },
+  "compilerOptions": {
+    "lib": ["deno.ns", "deno.unstable"]
+  }
+}

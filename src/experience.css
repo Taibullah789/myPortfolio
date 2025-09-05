@@ -1,0 +1,18 @@
+.view{
+    transform: translateX(-100%);
+    /* transition:all 5s ease-in-out; */
+     animation: show 4s linear both;
+    animation-timeline: view();
+    animation-range: entry -10% cover 30%;
+
+}
+@keyframes show {
+    from {
+        transform: translateX(-100%);
+        background-color: rgb(170, 202, 202);
+    }
+    to {
+         background-color: rgb(246, 248, 248);
+        transform: translateX(0);
+    }
+}
