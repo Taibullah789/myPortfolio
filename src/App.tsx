@@ -1,10 +1,8 @@
-import React, { useEffect } from 'react';
 import Navbar from './navbar';
 import About from './about';
 import Experience from './experience';
 import Contact from './contact';
 import Footer from './footer';
-import axios from 'axios';
 
 function App() {
 
