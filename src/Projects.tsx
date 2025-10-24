@@ -1,4 +1,4 @@
-import React from "react";
+
 import noble from "./assets/n1.JPG";
 import mill from "./assets/mill.JPG";
 import talhar from "./assets/talhar.JPG";
