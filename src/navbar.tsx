@@ -28,6 +28,8 @@ function Navbar() {
               <a href="#home" className="text-white hover:text-gray-300">Home</a>
               <a href="#about" className="text-white hover:text-gray-300">About</a>
               <a href="#experience" className="text-white hover:text-gray-300">Experience</a>
+              <a href="#projects" className="text-white hover:text-gray-300">Projects</a>
+
               <a href="#contact" className="text-white hover:text-gray-300">Contact Us</a>
             </div>
           </div>

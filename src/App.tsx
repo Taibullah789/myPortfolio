@@ -2,6 +2,7 @@ import Navbar from './navbar';
 import About from './about';
 import Experience from './experience';
 import Contact from './contact';
+import Projects from './projects';
 import Footer from './footer';
 
 function App() {
@@ -70,6 +71,7 @@ function App() {
       <Navbar />
       <About />
       <Experience />
+      <Projects />
       <Contact />
       <Footer />
     </>
