@@ -2,7 +2,7 @@ import Navbar from './navbar';
 import About from './about';
 import Experience from './experience';
 import Contact from './contact';
-import Projects from './projects';
+import Projects from './Projects';
 import Footer from './footer';
 
 function App() {
