@@ -1,6 +1,7 @@
 import React from "react";
 import noble from "./assets/n1.JPG";
 import mill from "./assets/mill.JPG";
+import talhar from "./assets/talhar.JPG";
 
 const projects = [
   {
@@ -20,12 +21,12 @@ const projects = [
     link: "https://github.com/Alibanday/Flour-Mill-Management-System",
   },
   {
-    title: "Weather Dashboard",
+    title: "Talhar Valley",
     description:
-      "",
-      desc2:'',
-    image: "/images/weather.png",
-    link: "https://myweatherapp.com",
+      "Talhar Guest House is a modern, responsive frontend web application designed to showcase a premium guesthouse experience. The website highlights luxury accommodations, room options, and convenient booking features, providing visitors with an elegant and user-friendly interface.",
+      desc2:'Built using React.js and Tailwind CSS, the project focuses on clean design, smooth navigation, and a visually appealing layout. It features dedicated pages for Home, Rooms, and Contact, with intuitive calls-to-action like “Book Your Stay” and “View Rooms”. The design emphasizes both comfort and sophistication, offering users a glimpse of the guesthouse’s high-end hospitality and services.',
+    image: talhar,
+    link: "https://github.com/Taibullah789/talhar-valley",
   },
 ];
 
@@ -47,7 +48,7 @@ function Projects() {
             />
             <div className="p-5">
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-              <span className='text-green-500'>Tech Stack: React.js, Tailwind CSS, PHP, MySQL</span>
+        
               <p className="text-gray-600 mb-4">{project.description}</p>
               
               <p className="text-gray-600 mb-4">{project.desc2}</p>
