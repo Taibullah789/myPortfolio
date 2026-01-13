@@ -70,8 +70,8 @@ function App() {
     <>
       <Navbar />
       <About />
-      <Experience />
       <Projects />
+      <Experience />
       <Contact />
       <Footer />
     </>

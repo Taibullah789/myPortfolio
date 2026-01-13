@@ -1,4 +1,4 @@
-
+import taibImage from './assets/taib.jpg';
 function About() {
   return (
     <section id="about" className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
@@ -16,7 +16,7 @@ function About() {
             <div className="relative">
               <div className="w-80 h-80 mx-auto lg:mx-0 bg-gradient-to-br hover:animate-bounce  from-blue-500 to-purple-600 rounded-full flex items-center justify-center shadow-2xl">
                 <div className="w-72 h-72 bg-white rounded-full flex items-center justify-center">
-                  <span className="text-8xl font-bold text-gray-800">T</span>
+                  <span className="text-8xl font-bold text-gray-800"><img src={taibImage} alt="" className="rounded-full" /></span>
                 </div>
               </div>
               <div className="absolute -bottom-4 -right-4 bg-green-500 text-white px-4 py-2 rounded-full text-sm font-semibold">
