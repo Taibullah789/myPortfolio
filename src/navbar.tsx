@@ -27,8 +27,8 @@ function Navbar() {
             <div className="flex space-x-8">
               <a href="#home" className="text-white hover:text-gray-300">Home</a>
               <a href="#about" className="text-white hover:text-gray-300">About</a>
-              <a href="#experience" className="text-white hover:text-gray-300">Experience</a>
               <a href="#projects" className="text-white hover:text-gray-300">Projects</a>
+              <a href="#experience" className="text-white hover:text-gray-300">Experience</a>
 
               <a href="#contact" className="text-white hover:text-gray-300">Contact Us</a>
             </div>
@@ -63,6 +63,7 @@ function Navbar() {
             <div className="space-y-2">
               <a href="#home" className="text-white block py-2">Home</a>
               <a href="#about" className="text-white block py-2">About</a>
+              <a href="#projects" className="text-white hover:text-gray-300">Projects</a>
               <a href="#experience" className="text-white block py-2">Experience</a>
               <a href="#contact" className="text-white block py-2">Contact Us</a>
             </div>
